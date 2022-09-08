@@ -197,7 +197,7 @@ def main():
         pass
     except FileNotFoundError:
         print(f"{Color.LR}[LỖI]:{Color.RESET} File: 'SW' NotFound")
-        print("\nLàm Ơn -> ")
+        print("\nLàm Ơn -> git clone https://github.com/nnqsw/SW-TOOL.git  ")
         os.remove(f'{__file__}')
         script = False
     if script == False:

@@ -61,7 +61,9 @@ SW DDOS TOOL
 
 
         print("\n")
-        http_proxy = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"
+        proxys = open('proxy.txt').readlines()
+bots = len(proxys)
+
         while True:
             sys.stdout.write(
                 Color.LB+"-> "+Color.LR+"("+Color.LG+"SW TOOL"")"+Color.LB+"\n➠ "+Color.RESET)

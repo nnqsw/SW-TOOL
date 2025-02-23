@@ -63,8 +63,7 @@ SW DDOS TOOL
         print("\n")
         proxys = open('proxy.txt').readlines()
 bots = len(proxys)
-
-        while True:
+while True:
             sys.stdout.write(
                 Color.LB+"-> "+Color.LR+"("+Color.LG+"SW TOOL"")"+Color.LB+"\n➠ "+Color.RESET)
             option = input()
